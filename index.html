@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samridhi Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*CSS Reset*/
+    body{
+        font-family: 'Playball', cursive;
+        color: white;
+        margin:0px;
+        padding: 0px;
+        background: url('img/training-gba343e091_1280.jpg');
+        
+        
+    }
+    .left{
+        position: absolute;
+        left: 60px;
+        top: 20px;
+        display: inline-block;
+        /*border: 2px solid red;*/
+
+    }
+    .left img{
+
+        width: 138px;
+        filter: invert(100%);
+        text-align: center;
+    }
+    .left div{
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 32px auto;
+        /*border: 2px solid green;*/
+
+
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 36px;
+        display: inline-block;
+        /*border: 2px solid yellow;*/
+
+    }
+    .navbar{
+        display: inline-block;
+        
+    }
+    .navbar li{
+        
+        display: inline-block;
+        font-size: 20px;
+        
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 11px;
+        
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+    }
+    .btn{
+        font-family: 'Playball', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: rgb(31, 30, 30);
+    }
+    .container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    }
+    .formgroup input{
+        font-family: 'Playball', cursive;
+        margin: 0px 9px;
+        text-align: center;
+        display: block;
+        width: 463px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 21px;
+        border-radius: 8px;
+
+    }
+    .container h1{
+        text-align: center;
+
+    }
+    .container button{
+        display: block;
+        width: 463px;
+        margin: 20px auto;
+    }
+    
+
+</style>
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="img/gym-logo-template-design-04d583c8ca3558ea0ea21763a57e7ba6_screen.jpg" alt="">
+            <div> Samridhi Fitness</div>
+            
+
+        </div>
+
+
+        <!--mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact US</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!--right box for button-->
+        <div class="right">
+            <button class="btn">Call us now</button><button class="btn">Email us </button>
+
+        </div>
+    </header>
+    <div class="container"> 
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Contact Number">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Email">
+            </div>
+            <button class="btn">Sumbit</button>
+        </form>
+    </div.>
+    
+</body>
+</html>
